@@ -5,6 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+     <!-- немного стилизации кнопок -->
+    <style>
+        button {
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: 500;
+            background-color: tomato;
+            color: white;
+        }
+        [data-action="start"] {
+            background-color: whitesmoke;
+            color: black;
+            margin-right: 50px;
+        }
+        [disabled] {
+            background-color: white;
+            color: white;
+        }
+    </style>
+    
 </head>
 <body>
     <button type="button" data-action="start">Start</button>

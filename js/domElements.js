@@ -4,5 +4,4 @@ const bodyRef = document.querySelector('body');
 
 export { bodyRef, btnStartRef, btnStopRef };
 
-bodyRef.style.height = "200px";
 bodyRef.style.padding = "80px 80px";
